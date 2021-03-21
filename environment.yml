@@ -4,4 +4,6 @@ channels:
 dependencies:
   - python=3.9
   - jupyterlab=3
-prefix: /home/vadym/miniconda3/envs/nure-jupyter-lab-works
+  - matplotlib=3.3
+  - numpy=1.20
+  - opencv=4.5

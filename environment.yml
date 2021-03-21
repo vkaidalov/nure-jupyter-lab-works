@@ -1,7 +1,6 @@
 name: nure-jupyter-lab-works
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.9
   - jupyterlab=3

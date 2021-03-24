@@ -130,3 +130,6 @@ dmypy.json
 
 # JetBrains
 .idea/
+
+# custom data directories
+lw1_filtering_*_images/

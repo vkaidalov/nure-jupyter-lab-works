@@ -132,4 +132,4 @@ dmypy.json
 .idea/
 
 # custom data directories
-lw1_filtering_*_images/
+nm_lw1_filtering_*_images/

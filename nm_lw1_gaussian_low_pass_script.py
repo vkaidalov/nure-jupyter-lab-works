@@ -1,3 +1,13 @@
+"""
+To use this script, please create a directory named 
+INPUT_DIR (see the value below), place some image files in it
+and run the script.
+As a result, a directory named OUTPUT_DIR will have per input file:
+- an image comparing the original input image to its grayscale version;
+- an image showing the image's spectrum produced by FFT;
+- an image showing the results of applying some Low Pass Gaussian filters.
+"""
+
 import os
 
 import cv2
@@ -7,8 +17,8 @@ import matplotlib.pyplot as plt
 from gaussian_low_pass import gaussian_low_pass
 
 
-INPUT_DIR = 'lw1_filtering_input_images'
-OUTPUT_DIR = 'lw1_filtering_output_images'
+INPUT_DIR = 'nm_lw1_filtering_input_images'
+OUTPUT_DIR = 'nm_lw1_filtering_output_images'
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

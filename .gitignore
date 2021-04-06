@@ -133,3 +133,5 @@ dmypy.json
 
 # custom data directories
 nm_lw1_filtering_*_images/
+nm_lw2_hough_lines_*_images/
+nm_lw2_script_input.txt

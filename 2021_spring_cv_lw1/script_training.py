@@ -108,13 +108,6 @@ if '--show-random-results' in sys.argv:
 
 svm_classifier = sklearn.svm.SVC()
 
-# hog_features = np.array(hog_features)
-# labels = np.array(labels)
-# data_frame = np.hstack((hog_features, labels))
-#
-# x_train, x_test = data_frame[:, :-1],  data_frame[partition:,:-1]
-# y_train, y_test = data_frame[:partition,-1:].ravel() , data_frame[partition:,-1:].ravel()
-
 print('Starting training the SVM classifier...')
 svm_classifier.fit(hog_features, labels)
 print('Finished training.')

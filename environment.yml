@@ -7,3 +7,6 @@ dependencies:
   - matplotlib=3.3
   - numpy=1.20
   - opencv=4.5
+  - scikit-image=0.18
+  - scikit-learn=0.24
+  - joblib=1.0

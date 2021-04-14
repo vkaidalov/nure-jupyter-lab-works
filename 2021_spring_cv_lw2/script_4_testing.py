@@ -21,7 +21,6 @@ svm_classifier = joblib.load(constants.SVM_MODEL_FILEPATH)
 input_img_filepath = sys.argv[1]
 
 delay_ms = int(sys.argv[2]) if len(sys.argv) > 2 else 0
-print(delay_ms)
 
 input_img = cv2.imread(input_img_filepath)
 height, width, _channels = input_img.shape

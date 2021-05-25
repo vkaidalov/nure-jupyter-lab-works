@@ -13,8 +13,7 @@ PIXEL_WHITE = np.array([255, 255, 255])
 PIXEL_RED = np.array([255, 0, 0])
 
 
-def run(image_path):
-    k = 0.725
+def run(image_path, k):
     pixels_bytes, height, width = read_image(image_path)
     pixels_bw, image = get_pixels_array(pixels_bytes, height, width, k)
     cell_rows = get_cell_rows(pixels_bw, height, width)
@@ -144,7 +143,8 @@ if __name__ == '__main__':
         ):
             filepath = os.path.join(TEST_IMAGES_DIR, filename)
             print(filepath)
-            run(filepath)
+            run(filepath, 0.725)
     else:
         input_img_filepath = sys.argv[1]
-        run(input_img_filepath)
+        k = float(sys.argv[2]) if len(sys.argv) > 2 else 0.725
+        run(input_img_filepath, k)

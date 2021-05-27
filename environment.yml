@@ -10,3 +10,5 @@ dependencies:
   - scikit-image=0.18
   - scikit-learn=0.24
   - joblib=1.0
+  - pywavelets=1.1
+  - panel=0.11

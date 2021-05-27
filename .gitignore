@@ -135,6 +135,15 @@ dmypy.json
 nm_lw1_filtering_*_images/
 nm_lw2_hough_lines_*_images/
 nm_lw2_script_input.txt
+2021_spring_nm_lw3/input_jpg_images/
+!2021_spring_nm_lw3/input_jpg_images/animal.jpg
+!2021_spring_nm_lw3/input_jpg_images/dog_wearing_mask.jpg
+!2021_spring_nm_lw3/input_jpg_images/keyboard.jpg
+!2021_spring_nm_lw3/input_jpg_images/khnatob.jpg
+!2021_spring_nm_lw3/input_jpg_images/lena_impulse.jpg
+!2021_spring_nm_lw3/input_jpg_images/noisy_taj_mahal.jpg
+2021_spring_nm_lw3/input_gray_jpg_images/
+2021_spring_nm_lw3/output_jpg_images/
 2021_spring_cv_lw1/data/
 2021_spring_cv_lw2/data/
 2021_spring_cv_lw4/data/
